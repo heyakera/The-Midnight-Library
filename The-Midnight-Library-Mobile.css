@@ -1,0 +1,3491 @@
+#header {
+  height: 150px !important;
+  min-height: 150px !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+#header h1.heading > a::after {
+  top: 12px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 160% !important;
+  height: 80px !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  font-size: 60px !important;
+}
+
+#header h1.heading > a::before {
+  width: 45px !important;
+  height: 45px !important;
+  top: 45px !important;
+  left: -13px !important;
+}
+
+#header h1.heading a img.logo {
+  position: absolute !important;
+  width: 30px !important;
+  height: 30px !important;
+  top: 52.5px !important;
+  left: -5.5px !important;
+  transform: none !important;
+}
+
+#header #greeting ul.navigation.actions {
+  position: absolute !important;
+  top: 5px !important;
+  left: auto !important;
+  right: 8px !important;
+  justify-content: flex-end !important;
+}
+
+#header #greeting ul.navigation.actions > li > a {
+  font-size: 8px !important;
+  min-height: 17px !important;
+  padding: 2px 5px !important;
+}
+
+#header #greeting ul.navigation.actions > li > a::before,
+#header #greeting ul.navigation.actions > li > a::after {
+  font-size: 7px !important;
+}
+
+#header #greeting ul.navigation.actions > li + li {
+  margin-left: -7px !important;
+}
+
+#header #greeting img.icon {
+  width: 42px !important;
+  height: 42px !important;
+  top: auto !important;
+  bottom: 8px !important;
+  right: 8px !important;
+  border-radius: 6px !important;
+}
+
+#header ul.primary.navigation.actions {
+  position: absolute !important;
+  top: 70px !important;
+  left: 0 !important;
+  right: 0 !important;
+  flex-wrap: nowrap !important;
+}
+
+#header ul.primary.navigation.actions > li:not(.search) {
+  top: 65px !important;
+  transform: none !important;
+  margin: 0 !important;
+  margin-left: -4px !important;
+  margin-right: -4px !important;
+}
+
+#header ul.primary.navigation.actions > li:not(.search) > a {
+  width: 70px !important;
+  min-width: 0 !important;
+  height: 30px !important;
+  min-height: 30px !important;
+  padding: 3px !important;
+  font-size: 14px !important;
+  outline-offset: 2px !important;
+}
+
+#header ul.primary.navigation.actions > li.search {
+  position: absolute !important;
+  top: 45px !important;
+  bottom: auto !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+#header #site_search {
+  width: 180px !important;
+  height: 12px !important;
+  min-height: 12px !important;
+  padding: 0 8px !important;
+  line-height: 10px !important;
+}
+
+#header form#search fieldset {
+  display: flex !important;
+  align-items: center !important;
+}
+
+#header form#search input[type="submit"] {
+  top: 0 !important;
+  height: 14px !important;
+  min-height: 14px !important;
+  font-size: 9px !important;
+  padding: 0 6px !important;
+  line-height: 12px !important;
+}
+
+#main,
+#main .splash {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+#main .splash > .favorite.module {
+  position: relative !important;
+  top: -37px !important;
+  margin-bottom: -37px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 !important;
+  left: 0 !important;
+  float: none !important;
+  box-sizing: border-box !important;
+}
+
+#main .splash > .favorite.module > h3.heading {
+  left: 0 !important;
+  width: 100% !important;
+  background-size: 140% auto !important;
+  overflow: hidden !important;
+}
+
+#main .splash > .favorite.module > ul {
+  left: 0 !important;
+  width: 80% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 !important;
+}
+
+#main .splash .favorite.module ul li {
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 6px !important;
+}
+
+#main .splash .favorite.module ul li a.tag {
+  font-size: 11px !important;
+  padding: 6px 35px !important;
+  border-radius: 9px !important;
+  line-height: 1.4 !important;
+}
+
+#main .splash .favorite.module ul li::before,
+#main .splash .favorite.module ul li::after {
+  font-size: 18px !important;
+}
+
+#main .splash .favorite.module ul li::before {
+  left: 10px !important;
+}
+
+#main .splash .favorite.module ul li::after {
+  right: 10px !important;
+}
+
+#main .splash .latest.news.module {
+  top: -60px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 !important;
+  left: 0 !important;
+  float: none !important;
+  box-sizing: border-box !important;
+}
+
+#main .splash .latest.news.module > h3.heading {
+  left: 0 !important;
+  width: 100% !important;
+  background-size: 160% auto !important;
+  background-position: center !important;
+}
+
+#main .splash .latest.news.module > ul,
+#main .splash .latest.news.module ul.news.index.group {
+  left: 0 !important;
+  width: 85% !important;
+  max-width: 85% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+#main .splash .latest.news.module > h3.heading > span.link {
+  position: absolute !important;
+  left: auto !important;
+  right: 39px !important;
+  transform-origin: center right !important;
+}
+
+#main .splash .latest.news.module > h3.heading > span.link a {
+  font-size: 0 !important;
+  color: transparent !important;
+  text-shadow: none !important;
+}
+
+#main .splash .latest.news.module li.post .header h4.heading,
+#main .splash .latest.news.module li.post .header h4.heading a {
+  font-size: 14px !important;
+}
+
+#main .splash .latest.news.module li.post .header p,
+#main .splash .latest.news.module li.post .header p a,
+#main .splash .latest.news.module li.post .header p abbr {
+  font-size: 11px !important;
+}
+
+#main .splash .latest.news.module li.post blockquote.userstuff,
+#main .splash .latest.news.module li.post blockquote.userstuff p {
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+  text-align: justify !important;
+}
+
+#main .splash .latest.news.module p.jump > a {
+  width: 20px !important;
+  height: 20px !important;
+  min-width: 20px !important;
+  min-height: 20px !important;
+  box-sizing: border-box !important;
+}
+
+#main .splash .latest.news.module ul.news.index.group > li.post {
+  margin-bottom: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+#main .splash .latest.news.module ul.news.index.group > li.post::after {
+  bottom: 0 !important;
+}
+
+#main .random.readings.module {
+  position: relative !important;
+  top: -130px !important;
+}
+
+#main .random.readings.module > h3.heading {
+  background-size: 500px auto !important;
+  background-position: 55px center !important;
+}
+
+#main .random.readings.module li.blurb {
+  width: 92% !important;
+  box-sizing: border-box !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 12px !important;
+  padding: 8px !important;
+}
+
+#main .random.readings.module li.blurb:first-child {
+  margin-top: -15px !important;
+}
+
+#main .random.readings.module li.blurb .header.module {
+  margin-top: 0 !important;
+}
+
+#main .random.readings.module li.blurb ul.tags {
+  margin-top: 12px !important;
+}
+
+#main .random.readings.module li.blurb ul.tags li {
+  margin: 1px 2px !important;
+}
+
+#main .random.readings.module li.blurb ul.tags li a {
+  font-size: 11px !important;
+  padding: 2px 5px !important;
+  line-height: 1.2 !important;
+}
+
+#main .random.readings.module li.blurb blockquote.userstuff.summary {
+  padding-left: 5px !important;
+  margin-left: 0 !important;
+}
+
+#main .random.readings.module input[value="Delete from History"] {
+  font-size: 11px !important;
+  padding: 3px 10px !important;
+  height: 25px !important;
+  min-height: 25px !important;
+  width: 130px !important;
+  box-sizing: border-box !important;
+}
+
+#main .social.module {
+  position: relative !important;
+  top: -170px !important;
+  left: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: -185px !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  float: none !important;
+}
+
+#main .social.module > h3.heading {
+  left: 0 !important;
+  width: 100% !important;
+  background-size: 160% auto !important;
+  margin-bottom: -20px !important;
+}
+
+#main .social.module p {
+  width: 85% !important;
+  max-width: 85% !important;
+  left: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+}
+
+#main .social.module ul {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
+  width: 85% !important;
+  padding: 0 !important;
+  margin: 10px auto !important;
+  left: 0 !important;
+  transform: translateX(20px) !important;
+}
+
+#main .social.module li.bluesky,
+#main .social.module li.tumblr {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: auto !important;
+  float: none !important;
+  margin: 0 !important;
+  height: auto !important;
+  min-height: 28px !important;
+  width: fit-content !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  box-sizing: border-box !important;
+}
+
+#main .social.module li.bluesky a,
+#main .social.module li.tumblr a {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 10px !important;
+  height: 28px !important;
+  min-height: 28px !important;
+  padding: 0 12px !important;
+  border-radius: 7px !important;
+  box-sizing: border-box !important;
+}
+
+#main .social.module .resp-sharing-button {
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+}
+
+#footer {
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+#footer > ul {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#footer h4.heading {
+  font-size: 11px !important;
+}
+
+#footer a {
+  font-size: 9px !important;
+  line-height: 1.3 !important;
+}
+
+#footer li li {
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+  padding: 0 !important;
+  line-height: 1.3 !important;
+}
+
+#main .splash > .favorite.module > h3.heading {
+  background-position: 25% center !important;
+}
+
+#main .splash .latest.news.module > h3.heading > span.link {
+  transform: scale(0.8) !important;
+}
+
+#main .social.module > h3.heading {
+  background-position: 26% center !important;
+}
+
+#header form#search input[type="submit"] {
+  margin-left: 4px !important;
+}
+
+#main .social.module li.tumblr {
+  margin-top: 6px !important;
+}
+
+#main .social.module .resp-sharing-button__icon {
+  margin-right: 4px !important;
+}
+
+#main .random.readings.module > h3.heading {
+  width: 100% !important;
+  max-width: 100% !important;
+  left: 0 !important;
+  box-sizing: border-box !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  background-size: 125% auto !important;
+  background-position: center center !important;
+}
+
+#main .random.readings.module > h3.heading span.link {
+  position: absolute !important;
+  left: auto !important;
+  right: 25px !important;
+  top: auto !important;
+  bottom: 75px !important;
+  font-size: 11px !important;
+  transform: none !important;
+}
+
+#main .random.readings.module > h3.heading span.link a {
+  font-size: 11px !important;
+}
+
+#main .random.readings.module li.blurb:first-child {
+  margin-top: -30px !important;
+}
+
+#main .social.module p.note {
+  position: relative !important;
+  left: 0 !important;
+  width: 85% !important;
+  max-width: 85% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+#main .social.module > h3.heading {
+  background-position: 28% center !important;
+  background-size: 140% auto !important;
+  margin-bottom: -20px !important;
+}
+
+html body #outer #main .splash .random.readings.module > h3.heading {
+  width: 100% !important;
+  max-width: 100% !important;
+  left: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+  background-size: 125% auto !important;
+  background-position: center center !important;
+}
+
+html body #outer #main .splash .random.readings.module > h3.heading span.link {
+  position: absolute !important;
+  left: auto !important;
+  right: 25px !important;
+  top: auto !important;
+  bottom: 75px !important;
+  transform: none !important;
+  font-size: 11px !important;
+}
+
+html body #outer #main .splash .random.readings.module > h3.heading span.link a {
+  font-size: 11px !important;
+}
+
+html body #outer #main .splash .social.module > h3.heading {
+  background-size: 140% auto !important;
+  background-position: 28% center !important;
+  margin-bottom: -20px !important;
+}
+
+html body #header #greeting ul.menu {
+  width: 120px !important;
+  min-width: 120px !important;
+  max-width: 120px !important;
+}
+
+html body #header #greeting ul.menu li {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 23px !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+html body #header #greeting ul.menu li a {
+  font-size: 10px !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 23px !important;
+  line-height: 14px !important;
+  padding: 4px 8px !important;
+  display: flex !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+}
+
+html body #header #greeting ul.navigation.actions > li:nth-child(2) ul.menu {
+  width: 75px !important;
+  min-width: 75px !important;
+  max-width: 75px !important;
+}
+
+html body #outer #header ul.primary.navigation.actions {
+  z-index: 999 !important;
+}
+
+html body #outer #header ul.primary.navigation.actions > li.dropdown > a {
+  width: 70px !important;
+  height: 30px !important;
+  min-width: 0 !important;
+  min-height: 30px !important;
+  max-width: 70px !important;
+  font-size: 14px !important;
+  transform: none !important;
+  padding: 3px !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #header ul.primary.navigation.actions ul.menu {
+  width: 160px !important;
+  min-width: 160px !important;
+  max-width: 160px !important;
+}
+
+html body #outer #header ul.primary.navigation.actions ul.menu li {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 23px !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #header ul.primary.navigation.actions ul.menu li a {
+  font-size: 10px !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 23px !important;
+  line-height: 14px !important;
+  padding: 4px 8px !important;
+  display: flex !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  white-space: normal !important;
+}
+
+html body #outer {
+  background-color: #211914 !important;
+}
+
+html body #outer #dashboard {
+  position: relative !important;
+  width: 65% !important;
+  margin: 10px auto !important;
+  padding: 8px !important;
+  box-sizing: border-box !important;
+  background: transparent !important;
+  border-radius: 10px !important;
+}
+
+html body #outer #dashboard::before {
+  content: "☰ Dashboard" !important;
+  display: block !important;
+  background: #462728 !important;
+  color: #efdfc1 !important;
+  border: 1px solid #bc985e !important;
+  border-radius: 8px !important;
+  padding: 8px !important;
+  text-align: center !important;
+  font-size: 13px !important;
+  cursor: pointer !important;
+}
+
+html body #outer #dashboard > ul {
+  display: none !important;
+  padding: 0 !important;
+  margin: 4px 0 8px !important;
+}
+
+html body #outer #dashboard:hover > ul {
+  display: block !important;
+}
+
+html body #outer #dashboard:focus-within > ul {
+  display: block !important;
+}
+
+html body #outer #dashboard ul.navigation.actions::before {
+  content: none !important;
+  background-image: none !important;
+  display: none !important;
+}
+
+html body #outer #dashboard li {
+  width: 100% !important;
+  margin: 3px 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #dashboard li > a,
+html body #outer #dashboard li > span.current {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 24px !important;
+  font-size: 11px !important;
+  line-height: 16px !important;
+  padding: 4px 8px !important;
+  margin: 0 0 3px !important;
+  box-sizing: border-box !important;
+}
+
+html body #main .user.home .primary.header {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  height: auto !important;
+  padding: 15px 0 !important;
+  margin: 0 auto !important;
+}
+
+html body #main .user.home p.icon {
+  order: 1 !important;
+  position: relative !important;
+  float: none !important;
+  top: auto !important;
+  left: -24px !important;
+  right: auto !important;
+  margin: 20px auto !important;
+  transform: scale(0.80) !important;
+  transform-origin: center center !important;
+}
+
+html body #main .user.home h2.heading {
+  order: 2 !important;
+  position: relative !important;
+  float: none !important;
+  top: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+  text-indent: 0 !important;
+  width: 100% !important;
+  height: auto !important;
+  margin: 30px auto 10px !important;
+  padding: 0 !important;
+  text-align: center !important;
+  font-size: 31px !important;
+  line-height: 1.2 !important;
+}
+
+html body #main .user.home .primary.header > ul.navigation.actions {
+  order: 3 !important;
+  position: relative !important;
+  float: none !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  width: 100% !important;
+  margin: 15px auto !important;
+  padding: 0 !important;
+  text-align: center !important;
+  transform: translateY(115px) !important;
+}
+
+html body #main .user.home .primary.header ul.navigation.actions a[href="/works/new"] {
+  position: absolute !important;
+  top: -262.195px !important;
+  left: 248.375px !important;
+  transform: none !important;
+}
+
+html body #outer #main .user.home p.alt.message {
+  position: static !important;
+  transform: none !important;
+}
+
+html body #outer #main .user.home p.alt.message::after {
+  display: block !important;
+  position: absolute !important;
+  left: 50% !important;
+  right: auto !important;
+  top: 445px !important;
+  width: 340px !important;
+  height: 68px !important;
+  margin: 0 !important;
+  transform: translateX(-50%) !important;
+  background-size: 100% auto !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+html body #outer #inner #main .user.home .primary.header h2.heading {
+  position: relative !important;
+  top: 0 !important;
+  bottom: auto !important;
+  left: 0 !important;
+  right: auto !important;
+  transform: none !important;
+  text-indent: 0 !important;
+  width: 100% !important;
+  margin: 30px auto 10px !important;
+  padding: 0 !important;
+  text-align: center !important;
+  font-size: 31px !important;
+  line-height: 1.2 !important;
+}
+
+html body #outer #header ul.primary.navigation.actions {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+html body #outer #header ul.primary.navigation.actions > li.dropdown {
+  flex: 0 0 82px !important;
+  width: 82px !important;
+  margin: 0 -8px !important;
+  padding: 0 !important;
+}
+
+html body #outer #header ul.primary.navigation.actions > li.dropdown > a {
+  width: 82px !important;
+  max-width: 82px !important;
+  height: 36px !important;
+  font-size: 19px !important;
+  margin: 0 !important;
+}
+
+html body #outer #main .splash::before {
+  content: none !important;
+  background-image: none !important;
+  display: none !important;
+}
+
+html body #outer #inner #main.profile-show .user.home.profile .primary.header {
+  min-height: 0 !important;
+}
+
+html body #outer #inner #main.profile-show .user.home.profile .primary.header > ul.navigation.actions {
+  transform: none !important;
+  margin-top: 15px !important;
+  margin-bottom: 10px !important;
+}
+
+html body #outer #inner #main.profile-show .user.home.profile .primary.header > ul.navigation.actions li {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+}
+
+html body #outer #inner #main.profile-show h3.landmark.heading + ul.navigation.actions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 15px auto !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  transform: none !important;
+}
+
+html body #outer #inner #main.profile-show h3.landmark.heading + ul.navigation.actions > li {
+  position: static !important;
+  display: block !important;
+  float: none !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  width: auto !important;
+  max-width: 100% !important;
+  margin: 5px !important;
+  transform: none !important;
+}
+
+html body #outer #inner #main.profile-show .wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+}
+
+html body #outer #inner #main.profile-show .wrapper dl.meta {
+  position: relative !important;
+  top: auto !important;
+  width: 72% !important;
+  max-width: 72% !important;
+  min-width: 0 !important;
+  height: 136px !important;
+  min-height: 136px !important;
+  max-height: 136px !important;
+  margin: 10px auto !important;
+  padding: 10px !important;
+  box-sizing: border-box !important;
+  background-size: contain !important;
+  background-position: center center !important;
+}
+
+html body #outer #inner #main.profile-show .wrapper dl.meta dt {
+  display: none !important;
+}
+
+html body #outer #inner #main.profile-show .wrapper dl.meta dd {
+  position: absolute !important;
+  left: 125px !important;
+  right: auto !important;
+  bottom: auto !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 8px !important;
+  line-height: 1 !important;
+  font-weight: normal !important;
+  text-align: left !important;
+  transform: none !important;
+  white-space: nowrap !important;
+}
+
+html body #outer #inner #main.profile-show .wrapper dl.meta dd:nth-of-type(1) {
+  top: 56px !important;
+}
+
+html body #outer #inner #main.profile-show .wrapper dl.meta dd:nth-of-type(2) {
+  top: 75px !important;
+}
+
+html body #outer #inner #main.profile-show .wrapper dl.meta dd:nth-of-type(3) {
+  top: 94px !important;
+}
+
+html body #outer #inner #main.profile-show .primary.header a[href="/works/new"] {
+  display: block !important;
+  position: absolute !important;
+  width: 45px !important;
+  height: 45px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 0 !important;
+  color: transparent !important;
+  background-color: transparent !important;
+  background-image: url("https://res.cloudinary.com/rfsp414a/image/upload/v1795369425/icon1.png") !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  z-index: 5 !important;
+}
+
+html body #outer #inner #main.profile-show .primary.header p.icon {
+  margin-top: -20px !important;
+  left: 0px !important;
+}
+
+html body #outer #inner #main.profile-show .primary.header h2.heading {
+  margin-top: 5px !important;
+}
+
+html body #outer #inner #main.profile-show .user.home.profile .primary.header > ul.navigation.actions {
+  margin-top: 20px !important;
+}
+
+html body #outer #inner #main.profile-show .primary.header a[href="/works/new"] {
+  top: -147.195px !important;
+}
+
+html body #outer #inner #main.profile-show .wrapper dl.meta {
+  margin-top: -5px !important;
+}
+
+html body #outer #inner #main.profile-show h3.landmark.heading + ul.navigation.actions > li a {
+  font-size: 12px !important;
+}
+
+html body #outer #inner #main.profile-show .user.home.profile .primary.header h2.heading {
+  margin-top: 5px !important;
+}
+
+html body #outer #inner #main > ul.navigation.actions:has(+ form.edit_preference) {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+
+html body #outer #inner #main form.edit_preference > fieldset {
+  margin-bottom: 35px !important;
+}
+
+html body #outer #inner #main.skins-index li.blurb {
+  height: auto !important;
+  min-height: 0px !important;
+  padding-bottom: 35px !important;
+}
+
+html body #outer #inner #main.skins-index li.blurb > .header.module {
+  height: auto !important;
+  min-height: 85px !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+}
+
+html body #outer #inner #main.skins-index li.blurb p.datetime {
+  position: relative !important;
+  float: none !important;
+  transform: none !important;
+  width: auto !important;
+  margin-top: 5px !important;
+  margin-right: 0px !important;
+  margin-bottom: 8px !important;
+  margin-left: 0px !important;
+  padding-top: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  font-size: 10px !important;
+  text-align: right !important;
+  left: 0px !important;
+  right: auto !important;
+  top: 0px !important;
+}
+
+html body #outer #inner #main.skins-index li.blurb blockquote.summary {
+  margin-top: -20px !important;
+  position: relative !important;
+  top: -5px !important;
+}
+
+html body #outer #inner #main.skins-index li.blurb > ul.actions li a {
+  font-size: 11px !important;
+  padding-top: 3px !important;
+  padding-right: 8px !important;
+  padding-bottom: 3px !important;
+  padding-left: 8px !important;
+  height: auto !important;
+  min-height: 0px !important;
+  line-height: 15px !important;
+}
+
+html body #outer #inner #main.skins-index li.blurb > ul.actions input[type='submit'] {
+  font-size: 11px !important;
+  padding-top: 3px !important;
+  padding-right: 8px !important;
+  padding-bottom: 3px !important;
+  padding-left: 8px !important;
+  height: auto !important;
+  min-height: 0px !important;
+  line-height: 15px !important;
+}
+
+html body #outer #inner #main.skins-index > ul.navigation.actions {
+  text-align: center !important;
+  float: none !important;
+  width: 100% !important;
+  margin-top: 0px !important;
+}
+
+html body #outer #inner #main.skins-index > p.notes {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+html body #outer #inner #main.skins-index > ul.actions {
+  text-align: center !important;
+  float: none !important;
+  width: 100% !important;
+  margin-top: 0px !important;
+}
+
+html body #outer #inner #main.skins-index > ul.skin.index {
+  margin-top: 10px !important;
+}
+
+html body #outer #inner #main .preface.group:not(.afterword)::after,
+html body #outer #inner #main .afterword.preface.group::before {
+  width: 85% !important;
+  max-width: none !important;
+  height: 30px !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+html body #outer #inner #main .preface.group:not(.afterword)::after {
+  transform: translateY(-25px) !important;
+}
+
+html body #outer #inner #main .afterword.preface.group h3.heading {
+  padding-top: 15px !important;
+}
+
+html body #outer #inner #main #chapters {
+  margin-top: -20px !important;
+}
+
+html body #outer #inner #main #chapters .userstuff {
+  font-size: 18.388px !important;
+}
+
+html body #outer #inner #main dl.work.meta dd.tags a.tag {
+  font-size: 11px !important;
+  padding: 2px 5px !important;
+  line-height: 1.3 !important;
+}
+
+html body #outer #inner #main dl.work.meta > dd {
+  margin-top: -8px !important;
+}
+
+html body #outer #inner #main dl.work.meta > dd {
+  margin-top: -5px !important;
+  margin-bottom: 1.002px !important;
+}
+
+html body #outer #inner #main.works-edit fieldset.privacy > dl {
+  display: grid !important;
+  grid-template-columns: 26px 1fr !important;
+  align-items: start !important;
+}
+
+html body #outer #inner #main.works-edit fieldset.privacy > dl > dt,
+html body #outer #inner #main.works-edit fieldset.privacy > dl > dd {
+  position: static !important;
+  float: none !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main.works-edit fieldset label {
+  display: inline !important;
+}
+
+html body #outer #inner #main.works-edit fieldset a.help {
+  position: static !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  margin: 0 0 0 3px !important;
+  transform: none !important;
+}
+
+html body #outer #inner #main.works-edit dt.parent,
+html body #outer #inner #main.works-edit dt.translation,
+html body #outer #inner #main.works-edit dt.serial,
+html body #outer #inner #main.works-edit dt.chaptered,
+html body #outer #inner #main.works-edit dt.backdate {
+  float: left !important;
+  clear: left !important;
+  width: 20px !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main.works-edit dd.parent,
+html body #outer #inner #main.works-edit dd.translation,
+html body #outer #inner #main.works-edit dd.serial,
+html body #outer #inner #main.works-edit dd.chaptered,
+html body #outer #inner #main.works-edit dd.backdate {
+  clear: none !important;
+  float: none !important;
+  width: auto !important;
+  margin-left: 26px !important;
+  padding-left: 0 !important;
+}
+
+html body #outer #inner #main.works-edit fieldset.privacy dt.permissions,
+html body #outer #inner #main.works-edit fieldset.privacy dd.permissions {
+  grid-column-start: 1 !important;
+  grid-column-end: 3 !important;
+}
+
+html body #outer #inner #main.works-edit fieldset.privacy > dl > dt,
+html body #outer #inner #main.works-edit fieldset.privacy > dl > dd {
+  margin-bottom: 15px !important;
+}
+
+html body #outer #inner #main.bookmarks-index > ol.bookmark.index {
+  width: 100% !important;
+  max-width: 100% !important;
+  float: none !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main.bookmarks-index li.bookmark.blurb {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main.bookmarks-index > h2.heading {
+  width: 100% !important;
+  float: none !important;
+  text-align: center !important;
+  font-size: 22px !important;
+  margin: 20px auto 15px !important;
+}
+
+html body #outer #inner #main.bookmarks-index > ul.navigation.actions {
+  position: static !important;
+  float: none !important;
+  clear: both !important;
+  width: 100% !important;
+  text-align: center !important;
+  margin: 15px auto !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main.bookmarks-index li.bookmark.blurb ul.actions a,
+html body #outer #inner #main.bookmarks-index li.bookmark.blurb ul.actions input[type="submit"],
+html body #outer #inner #main.bookmarks-index li.bookmark.blurb ul.actions button {
+  font-size: 11px !important;
+  padding: 3px 7px !important;
+  min-height: 0 !important;
+  height: auto !important;
+  line-height: 1.3 !important;
+}
+
+html body #outer #inner #main.works-index li.work.blurb ul.tags {
+  margin-top: 5px !important;
+}
+
+html body #outer #inner #main.works-index > h2.heading {
+  float: none !important;
+  width: 100% !important;
+  text-align: center !important;
+  font-size: 22px !important;
+  margin: 20px auto 15px !important;
+}
+
+html body #outer #inner #main.works-index > div.navigation.actions.module {
+  position: static !important;
+  float: none !important;
+  clear: both !important;
+  width: 100% !important;
+  text-align: center !important;
+  margin: 10px auto 20px !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main.works-index > div.navigation.actions.module ul {
+  float: none !important;
+  width: 100% !important;
+  text-align: center !important;
+  margin: 5px auto !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main.works-index > div.navigation.actions.module li {
+  display: inline-block !important;
+  float: none !important;
+  width: auto !important;
+  margin: 4px !important;
+}
+
+html body #outer #inner #main.works-index > h2.heading {
+  display: block !important;
+  text-align: center !important;
+}
+
+html body #outer #inner #main.works-index > div.navigation.actions.module ul {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  max-width: 280px !important;
+  margin: 5px auto !important;
+}
+
+html body #outer #inner #main.works-index > div.navigation.actions.module li {
+  float: none !important;
+  margin: 4px !important;
+}
+
+html body #outer #inner #main.works-index > div.navigation.actions.module .current {
+  border-radius: 8px !important;
+}
+
+html body #outer #inner #main.works-index > ol.work.index {
+  margin-top: -40px !important;
+}
+
+html body #outer #inner #main.works-index > h2.heading {
+  margin-top: -10px !important;
+}
+
+html body #outer #inner #main.works-index > div.navigation.actions.module li {
+  margin: 2px 4px !important;
+}
+
+html body #outer #inner #main.works-index > ol.work.index {
+  margin-top: -20px !important;
+}
+
+html body #outer #inner #main.works-index > h2.heading {
+  margin-top: -25px !important;
+}
+
+html body #outer #inner #main.works-index li.work.blurb ul.tags {
+  margin-top: 5px !important;
+}
+
+html body #outer #inner #main .user.home > .fandom.listbox,
+html body #outer #inner #main .user.home > .work.listbox {
+  position: relative !important;
+  top: -25px !important;
+}
+
+html body #outer #inner #main .user.home .work.listbox li.work.blurb ul.tags {
+  margin-top: 5px !important;
+}
+
+html body #outer #inner #main.collections-index {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+html body #outer #inner #main.collections-index > h2.heading {
+  order: 1 !important;
+  position: static !important;
+  float: none !important;
+  width: 100% !important;
+  text-align: center !important;
+  font-size: 22px !important;
+  margin: 10px auto 15px !important;
+  transform: none !important;
+}
+
+html body #outer #inner #main.collections-index > ul.navigation.actions {
+  order: 2 !important;
+  position: static !important;
+  float: none !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  width: 100% !important;
+  margin: 5px auto 20px !important;
+  padding: 0 !important;
+  transform: none !important;
+}
+
+html body #outer #inner #main.collections-index > ul.navigation.actions li {
+  float: none !important;
+  margin: 4px !important;
+}
+
+html body #outer #inner #main.collections-index > ul.navigation.actions .current {
+  border-radius: 8px !important;
+}
+
+html body #outer #inner #main.collections-index > h3.heading:not(.landmark) {
+  order: 3 !important;
+  position: static !important;
+  text-align: center !important;
+  font-size: 15px !important;
+  margin: 15px auto !important;
+  transform: none !important;
+}
+
+html body #outer #inner #main.collections-index > ul.navigation.actions li > a,
+html body #outer #inner #main.collections-index > ul.navigation.actions li > span {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+html body #outer #inner #main.collections-index > ul.navigation.actions li {
+  margin: 0 4px !important;
+}
+
+html body #outer #inner #main.collections-index > ul.navigation.actions li {
+  margin: 4px 4px !important;
+}
+
+html body #outer #inner #main a#go_to_filters[href="#inbox-filters"] {
+  background: #462728 !important;
+  color: #efdfc1 !important;
+  border: 1.5px solid #bc985e !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+html body #outer #inner #main.inbox-show span.posted.datetime {
+  position: relative !important;
+  left: 10px !important;
+  top: 8px !important;
+}
+
+#main > .wrapper > dl.statistics.meta.group {
+  display: grid !important;
+  width: 90% !important;
+  margin: 15px auto 25px !important;
+  padding: 0 !important;
+  text-align: left !important;
+}
+
+#main > .wrapper > dl.statistics.meta.group dt,
+#main > .wrapper > dl.statistics.meta.group dd {
+  display: block !important;
+  float: none !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#main > .wrapper > dl.statistics.meta.group dt {
+  text-align: left !important;
+}
+
+#main > .wrapper > dl.statistics.meta.group dd {
+  text-align: right !important;
+  color: #bc985e !important;
+}
+
+#main > .wrapper > dl.statistics.meta.group {
+  border: none !important;
+  border-left: none !important;
+  padding-left: 0 !important;
+  width: 90% !important;
+}
+
+#main .statistics.chart svg > rect:first-of-type {
+  fill: #211914 !important;
+}
+
+#main .statistics.chart {
+  width: 100% !important;
+  height: 250px !important;
+  margin: 0 auto -25px !important;
+}
+
+#main .statistics.chart > div,
+#main .statistics.chart > div > div {
+  width: 340px !important;
+  height: 250px !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+}
+
+#main .statistics.chart svg {
+  width: 340px !important;
+  height: 250px !important;
+  max-width: 100% !important;
+}
+
+#main .statistics.chart::before {
+  display: none !important;
+  content: none !important;
+}
+
+#main .statistics.chart svg rect[fill="#993333"] {
+  fill: #c6a063 !important;
+}
+
+#main .statistics.chart svg rect[fill="#cccccc"] {
+  fill: #80613d !important;
+}
+
+#main .statistics.chart svg rect[fill="#ebebeb"] {
+  fill: #49372b !important;
+}
+
+#main .statistics.chart svg > rect:first-of-type {
+  fill: #211914 !important;
+}
+
+#main .statistics.chart svg text {
+  fill: #e8d6b8 !important;
+}
+
+#main > .actions.module {
+  margin-top: -25px !important;
+  padding-top: 0 !important;
+}
+
+#main ul.sorting.actions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 auto 12px !important;
+  padding: 0 !important;
+  font-size: 1.1em !important;
+  line-height: 1.5 !important;
+}
+
+#main ul.sorting.actions > li {
+  margin: 0 6px !important;
+  padding: 0 !important;
+  line-height: 1.5 !important;
+}
+
+#main ul.sorting.actions h4 {
+  margin: 0 !important;
+}
+
+#main ul.view.actions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  margin: 12px auto 25px !important;
+  padding: 0 !important;
+  text-align: center !important;
+}
+
+#main ul.view.actions > li {
+  display: block !important;
+  float: none !important;
+  margin: 0 4px !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+#main ul.view.actions > li::before,
+#main ul.view.actions > li::after,
+#main ul.view.actions > li + li::before,
+#main ul.view.actions > li + li::after {
+  display: none !important;
+  content: none !important;
+  border: 0 !important;
+  background: none !important;
+}
+
+#main ul.view.actions > li > a,
+#main ul.view.actions > li > span.current {
+  display: inline-block !important;
+  min-height: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 3px 8px !important;
+  border: 1px solid #c6a063 !important;
+  border-radius: 5px !important;
+  background: #49282b !important;
+  color: #e8d6b8 !important;
+  font-size: 0.78em !important;
+  line-height: 1.2 !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+#main ul.statistics.index > li.fandom,
+#main ul.statistics.index > li.fandom.listbox,
+#main ul.statistics.index > li.fandom.listbox.group {
+  border: 0 !important;
+  border-left: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+#main ul.statistics.index > li.fandom::before,
+#main ul.statistics.index > li.fandom::after {
+  display: none !important;
+  content: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+#main ul.statistics.index ul.index.group {
+  border: 0 !important;
+  border-left: 0 !important;
+  box-shadow: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+#main ul.statistics.index ul.index.group > li {
+  border: 1px solid #c6a063 !important;
+  border-radius: 0 !important;
+  background: #2d2119 !important;
+  padding: 16px !important;
+  margin: 15px 0 !important;
+  box-shadow: none !important;
+}
+
+#main ul.statistics.index ul.index.group > li::before,
+#main ul.statistics.index ul.index.group > li::after {
+  display: none !important;
+  content: none !important;
+}
+
+#main ul.statistics.index ul.index.group > li > dl > dt {
+  display: block !important;
+  float: none !important;
+  width: 100% !important;
+  margin: 0 0 16px !important;
+  padding: 0 !important;
+  text-align: left !important;
+}
+
+#main ul.statistics.index dl.stats {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: baseline !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#main ul.statistics.index dl.stats dt {
+  display: block !important;
+  float: none !important;
+  clear: none !important;
+  flex: 0 0 78% !important;
+  width: 78% !important;
+  margin: 0 !important;
+  padding: 4px 0 !important;
+  text-align: left !important;
+  box-sizing: border-box !important;
+}
+
+#main ul.statistics.index dl.stats dd {
+  display: block !important;
+  float: none !important;
+  flex: 0 0 22% !important;
+  width: 22% !important;
+  margin: 0 !important;
+  padding: 4px 0 !important;
+  text-align: right !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main.stats-index ul.view.actions li > a,
+html body #outer #inner #main.stats-index ul.view.actions li > span.current {
+  background: #49282b !important;
+  border: 1px solid #c6a063 !important;
+  border-radius: 8px !important;
+  color: #e8d6b8 !important;
+  padding: 4px 9px !important;
+  font-size: 12px !important;
+  display: inline-block !important;
+}
+
+html body #outer #inner #main.stats-index ul.view.actions > li::before {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+  width: 0 !important;
+}
+
+html body #outer #inner #main.stats-index #stat_chart {
+  width: 100% !important;
+  height: 200px !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+}
+
+html body #outer #inner #main.stats-index #stat_chart > div,
+html body #outer #inner #main.stats-index #stat_chart > div > div,
+html body #outer #inner #main.stats-index #stat_chart svg {
+  width: auto !important;
+  height: auto !important;
+  max-width: none !important;
+}
+
+html body #outer #inner #main.stats-index dl.statistics.meta.group {
+  display: grid !important;
+  grid-template-columns: 80% 20% !important;
+  align-items: center !important;
+}
+
+html body #outer #inner #main.stats-index dl.statistics.meta.group > dt,
+html body #outer #inner #main.stats-index dl.statistics.meta.group > dd {
+  display: block !important;
+  float: none !important;
+  clear: none !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 5px 0 !important;
+}
+
+html body #outer #inner #main.stats-index dl.statistics.meta.group > dd {
+  text-align: right !important;
+}
+
+html body #outer #inner #main.stats-index #stat_chart svg > g:nth-of-type(2) {
+  visibility: hidden !important;
+}
+
+html body #outer #inner #main.stats-index #stat_chart {
+  margin-bottom: -20px !important;
+}
+
+html body #outer #inner #main.stats-index #stat_chart svg {
+  transform: scale(1.15) !important;
+  transform-origin: center center !important;
+}
+
+html body #outer #inner #main.stats-index #stat_chart {
+  margin-bottom: 0px !important;
+}
+
+html body #outer #inner #main.stats-index > h2.heading {
+  text-align: center !important;
+  margin: 20px auto 15px !important;
+  font-size: 22px !important;
+}
+
+html body #outer #inner #main.stats-index > ul.navigation.actions,
+html body #outer #inner #main.stats-index > ol.year.actions {
+  display: flex !important;
+  justify-content: center !important;
+  float: none !important;
+  width: 100% !important;
+  margin: 10px auto !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main.stats-index > h3.heading {
+  margin-top: 25px !important;
+}
+
+html body #outer #inner #main.stats-index > ul.navigation.actions {
+  margin-bottom: -8px !important;
+}
+
+html body #outer #inner #main.stats-index > ol.year.actions {
+  margin-top: -8px !important;
+}
+
+html body #outer #inner #main.stats-index #stat_chart svg {
+  transform: none !important;
+}
+
+html body #outer #inner #main.stats-index #stat_chart svg g[clip-path] rect[fill="#993333"] {
+  transform: scaleX(0.25) !important;
+  transform-box: fill-box !important;
+  transform-origin: center !important;
+}
+
+html body #outer #inner #main.readings-index > h2.heading {
+  text-align: left !important;
+  margin: 20px auto 20px !important;
+  font-size: 24px !important;
+}
+
+html body #outer #inner #main.readings-index > ul.navigation.actions {
+  text-align: center !important;
+  margin: 5px auto 12px !important;
+  padding: 15px 0 0 !important;
+}
+
+html body #outer #inner #main.readings-index > ul.navigation.actions a,
+html body #outer #inner #main.readings-index > ul.navigation.actions .current {
+  font-size: 11px !important;
+  padding: 5px 8px !important;
+}
+
+html body #outer #inner #main.readings-index > ol.pagination {
+  margin: 12px auto !important;
+}
+
+html body #outer #inner #main ol.reading.work.index input[type="submit"][value="Delete from History"] {
+  font-size: 11px !important;
+  padding: 3px 7px !important;
+  min-height: 0 !important;
+  height: auto !important;
+  line-height: 1.3 !important;
+}
+
+html body #outer #inner #main ol.reading.work.index ul.tags {
+  margin-top: 5px !important;
+}
+
+html body #outer #inner #main.gifts-index > ul.navigation.actions {
+  position: relative !important;
+  top: 25px !important;
+}
+
+html body #outer #inner #main.media-index > ul.media.fandom.index {
+  display: block !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+}
+
+html body #outer #inner #main.media-index > ul.media.fandom.index > li.listbox {
+  display: block !important;
+  float: none !important;
+  clear: both !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 auto 20px !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main.media-index ul.media.fandom.index > li.listbox {
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+  margin: 0 auto 20px !important;
+  width: 96% !important;
+}
+
+html body #outer #inner #main.media-index li.listbox > .heading {
+  display: block !important;
+  float: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main.media-index > h2.heading {
+  text-align: left !important;
+  width: 96% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  text-indent: 0 !important;
+  transform: none !important;
+  left: auto !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main.works-index > ol.work.index {
+  margin-top: 15px !important;
+}
+
+html body #outer #inner #main.works-index > div.navigation.actions.module {
+  margin-top: -15px !important;
+}
+
+html body #outer #inner #main.works-index > ol.pagination {
+  margin-top: 25px !important;
+  margin-bottom: -10px !important;
+}
+
+html body #outer #inner #main.works-index > h2.heading {
+  text-align: left !important;
+  margin-top: 20px !important;
+  padding-top: 5px !important;
+  padding-left: 0 !important;
+  text-indent: 0 !important;
+  transform: none !important;
+  left: 0 !important;
+}
+
+html body #outer #inner #main.bookmarks-index:not(.dashboard) > h2.heading {
+  margin-top: 20px !important;
+  padding-top: 20px !important;
+  position: relative !important;
+  top: 10px !important;
+}
+
+html body #outer #inner #main.bookmarks-index:not(.dashboard) li.bookmark.blurb ul.tags {
+  margin-top: 5px !important;
+}
+
+html body #outer #inner #main li.bookmark.blurb p.status span.public {
+  filter: none !important;
+  background-image: none !important;
+  background-color: #49282b !important;
+  border: 1px solid #c6a063 !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main li.bookmark.blurb p.status span.public {
+  position: relative !important;
+  border-radius: 4px !important;
+}
+
+html body #outer #inner #main li.bookmark.blurb p.status span.public::after {
+  content: "▤" !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  color: #c6a063 !important;
+  font-size: 18px !important;
+  line-height: 1 !important;
+  text-indent: 0 !important;
+}
+
+html body #outer #inner #main li.bookmark.blurb p.status span.public {
+  width: 27px !important;
+  height: 27px !important;
+}
+
+html body #outer #inner #main.tags-index > h2.heading {
+  position: relative !important;
+  top: 2px !important;
+}
+
+html body #outer #inner #main.tags-index ul.cloud {
+  text-align: justify !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(2) dt {
+  position: static !important;
+  transform: none !important;
+  display: block !important;
+  float: none !important;
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 5px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(2) dd {
+  margin-top: 0 !important;
+  clear: both !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(2) dt {
+  margin-bottom: 10px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(2) dt {
+  margin-bottom: 15px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(2) dt {
+  margin-bottom: 5px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(2) dd {
+  padding-top: 10px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(2) dd {
+  position: relative !important;
+  top: 5px !important;
+  margin-bottom: 13px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(2) dd {
+  padding-top: 5px !important;
+  top: 2px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(2) dd {
+  padding-top: 2px !important;
+  top: 0 !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(1) dt {
+  position: static !important;
+  transform: none !important;
+  display: block !important;
+  float: none !important;
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 5px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(1) dd {
+  margin-top: 0 !important;
+  clear: both !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(1) dt {
+  margin-bottom: 10px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(1) dt {
+  margin-bottom: 15px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(1) dt {
+  margin-bottom: 5px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(1) dd {
+  padding-top: 10px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(1) dd {
+  position: relative !important;
+  top: 5px !important;
+  margin-bottom: 13px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(3) dt {
+  position: static !important;
+  transform: none !important;
+  display: block !important;
+  float: none !important;
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 5px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(3) dd {
+  margin-top: 0 !important;
+  clear: both !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(3) dt {
+  margin-bottom: 10px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(3) dt {
+  margin-bottom: 15px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(3) dt {
+  margin-bottom: 5px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(3) dd {
+  padding-top: 10px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(3) dd {
+  position: relative !important;
+  top: 5px !important;
+  margin-bottom: 13px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(1) dt,
+html body #outer #inner #main.works-search fieldset:nth-of-type(3) dt {
+  margin-bottom: 3px !important;
+}
+
+html body #outer #inner #main.works-search fieldset:nth-of-type(1) dd,
+html body #outer #inner #main.works-search fieldset:nth-of-type(3) dd {
+  padding-top: 3px !important;
+  top: 0 !important;
+  margin-bottom: 8px !important;
+}
+
+html body #outer #inner #main.works-search > h2.heading {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+
+html body #outer #inner #main.works-search > ul.navigation.actions {
+  margin-top: 10px !important;
+}
+
+html body #outer #inner #main.works-search > form.verbose.search {
+  margin-top: 40px !important;
+}
+
+html body #outer #inner #main.works-search > form.verbose.search {
+  margin-top: 50px !important;
+}
+
+html body #outer #inner #main.works-search > ul.navigation.actions {
+  padding-bottom: 15px !important;
+}
+
+html body #outer #inner #main.bookmarks-search > h2.heading {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+
+html body #outer #inner #main.bookmarks-search > ul.navigation.actions {
+  margin-top: 10px !important;
+  padding-bottom: 15px !important;
+}
+
+html body #outer #inner #main.bookmarks-search > form.search {
+  margin-top: 50px !important;
+}
+
+html body #outer #inner #main.bookmarks-search fieldset:nth-of-type(1) dt,
+html body #outer #inner #main.bookmarks-search fieldset:nth-of-type(2) dt {
+  position: static !important;
+  transform: none !important;
+  display: block !important;
+  float: none !important;
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 3px !important;
+}
+
+html body #outer #inner #main.bookmarks-search fieldset:nth-of-type(1) dd,
+html body #outer #inner #main.bookmarks-search fieldset:nth-of-type(2) dd {
+  position: relative !important;
+  clear: both !important;
+  margin-top: 0 !important;
+  padding-top: 3px !important;
+  top: 0 !important;
+  margin-bottom: 8px !important;
+}
+
+html body #outer #inner #main.tags-search > h2.heading {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+
+html body #outer #inner #main.tags-search > ul.navigation.actions {
+  margin-top: 10px !important;
+  padding-bottom: 15px !important;
+}
+
+html body #outer #inner #main.tags-search > form.search {
+  margin-top: 50px !important;
+}
+
+html body #outer #inner #main.tags-search fieldset dt {
+  position: static !important;
+  transform: none !important;
+  display: block !important;
+  float: none !important;
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 3px !important;
+}
+
+html body #outer #inner #main.tags-search fieldset dd {
+  position: relative !important;
+  clear: both !important;
+  margin-top: 0 !important;
+  padding-top: 3px !important;
+  top: 0 !important;
+  margin-bottom: 8px !important;
+}
+
+html body #outer #inner #main.people-search > h2.heading {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+
+html body #outer #inner #main.people-search > ul.navigation.actions {
+  margin-top: 10px !important;
+  padding-bottom: 15px !important;
+}
+
+html body #outer #inner #main.people-search > form.search {
+  margin-top: 50px !important;
+}
+
+html body #outer #inner #main.people-search fieldset dt {
+  position: static !important;
+  transform: none !important;
+  display: block !important;
+  float: none !important;
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 3px !important;
+}
+
+html body #outer #inner #main.people-search fieldset dd {
+  position: relative !important;
+  clear: both !important;
+  margin-top: 0 !important;
+  padding-top: 3px !important;
+  top: 0 !important;
+  margin-bottom: 8px !important;
+}
+
+html body #outer #inner #main.system.docs.about h3.heading {
+  border-bottom: none !important;
+}
+
+html body #outer #inner #main.system.docs.about a {
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+html body #outer #inner #main.system.docs.about > h2.heading {
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+
+html body #outer #inner #main.system.docs.about h3.heading:first-of-type {
+  margin-top: 15px !important;
+}
+
+html body #outer #inner #main.system.docs.about h2.heading {
+  padding-top: 15px !important;
+}
+
+html body #outer #inner #main.system.docs.about > h2.heading {
+  position: relative !important;
+  top: 10px !important;
+}
+
+html body #outer #inner #main.system.docs.about h3.heading:first-of-type {
+  margin-top: 20px !important;
+}
+
+html body #outer #inner #main.admin_posts-index .news form p {
+  display: grid !important;
+  grid-template-columns: 25% 55% 20% !important;
+  align-items: center !important;
+  width: 100% !important;
+  margin: 10px auto !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main.admin_posts-index .news form label {
+  position: static !important;
+  float: none !important;
+  width: auto !important;
+  margin: 5px 3px !important;
+}
+
+html body #outer #inner #main.admin_posts-index .news form select {
+  width: 95% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  margin: 5px auto !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main.admin_posts-index #tag {
+  grid-column-start: 2 !important;
+  grid-column-end: 4 !important;
+}
+
+html body #outer #inner #main.admin_posts-index .news form input[type="submit"] {
+  margin: 5px auto !important;
+}
+
+html body #outer #inner #main.faq.index .categories > h3.heading {
+  display: block !important;
+  position: static !important;
+  float: none !important;
+  width: 100% !important;
+  height: auto !important;
+  margin: 20px auto 15px !important;
+  padding: 10px 0 !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+  transform: none !important;
+}
+
+html body #outer #inner #main.faq.index .categories h3.heading > ul.actions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  position: static !important;
+  float: none !important;
+  width: 100% !important;
+  margin: 15px auto 5px !important;
+  padding: 0 !important;
+  transform: none !important;
+}
+
+html body #outer #inner #main.faq.index .categories h3.heading > ul.actions li {
+  position: static !important;
+  float: none !important;
+  width: auto !important;
+  margin: 3px !important;
+}
+
+html body #outer #inner #main.faq.index .categories h3.heading > ul.actions a {
+  font-size: 11px !important;
+  padding: 5px 8px !important;
+  white-space: nowrap !important;
+}
+
+html body #outer #inner #main.faq.index > h2.heading {
+  display: block !important;
+  float: none !important;
+  width: 100% !important;
+  margin: 25px auto 20px !important;
+}
+
+html body #outer #inner #main.faq.index > ul.navigation.actions {
+  float: none !important;
+  width: 100% !important;
+  text-align: center !important;
+  margin: 10px auto 15px !important;
+  padding-bottom: 10px !important;
+}
+
+html body #outer #inner #main.faq.index > p.notice {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+html body #outer #inner #main.faq.index > p.notes {
+  margin-bottom: 20px !important;
+}
+
+html body #outer #inner #main.faq.index > p.notes {
+  margin-bottom: 5px !important;
+}
+
+html body #outer #inner #main.faq.index .categories {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+html body #outer #inner #main.faq.index .categories > h3.heading {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+html body #outer #inner #main.faq.index .categories h3.heading > ul.actions {
+  justify-content: flex-start !important;
+  margin-top: 5px !important;
+  margin-bottom: 0 !important;
+}
+
+html body #outer #inner #main.faq.index .categories {
+  padding-top: 15px !important;
+}
+
+html body #outer #inner #main.faq.index .categories h3.heading > ul.actions {
+  justify-content: center !important;
+  margin-top: 10px !important;
+  margin-bottom: 5px !important;
+}
+
+html body #outer #inner #main.faq.index > h2.heading {
+  margin-top: 10px !important;
+}
+
+html body #outer #inner #main.faq.index > h2.heading {
+  position: relative !important;
+  top: -20px !important;
+}
+
+html body #outer #inner #main.works-index.filtered > h2.heading {
+  top: 0 !important;
+  margin-top: 10px !important;
+}
+
+html body #outer #inner #main.works-index.filtered > div.navigation.actions.module {
+  margin-top: -30px !important;
+}
+
+html body #outer #inner #main.works-index.filtered > div.navigation.actions.module {
+  margin-top: -40px !important;
+}
+
+html body #outer #inner #main.works-index.filtered > div.navigation.actions.module {
+  margin-top: -50px !important;
+}
+
+html body #outer #inner #main.works-index.dashboard.filtered > h2.heading {
+  position: relative !important;
+  top: -20px !important;
+  margin-top: 0 !important;
+}
+
+html body #outer #inner #main.works-index.dashboard.filtered > div.navigation.actions.module {
+  margin-top: -15px !important;
+  margin-bottom: 5px !important;
+}
+
+html body #outer #inner #main.works-index.dashboard.filtered > ol.work.index {
+  margin-top: 0 !important;
+}
+
+html body #outer #inner #main.works-index.dashboard.filtered > div.navigation.actions.module {
+  margin-top: -30px !important;
+}
+
+html body #outer #inner #main.works-index.dashboard.filtered > div.navigation.actions.module {
+  margin-top: -35px !important;
+}
+
+html body #outer #inner #main.works-index.dashboard.filtered ol.pagination:first-of-type {
+  position: relative !important;
+  top: -20px !important;
+}
+
+html body #outer #inner #main a#expand-fandoms {
+  background: #49282b !important;
+  background-image: none !important;
+  color: #efdfc1 !important;
+  border: 1px solid #c6a063 !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  -webkit-appearance: none !important;
+}
+
+html body #outer #inner #main a[href^="/users/"][href$="/bookmarks"] {
+  background: #49282b !important;
+  background-image: none !important;
+  color: #efdfc1 !important;
+  border: 1px solid #c6a063 !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  -webkit-appearance: none !important;
+}
+
+html body #outer #inner #main.bookmarks-index.dashboard li.bookmark.blurb ul.tags {
+  margin-top: 5px !important;
+}
+
+html body #outer.filtering #main form#bookmark-filters {
+  position: fixed !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: auto !important;
+  right: 0 !important;
+  width: 90vw !important;
+  max-width: 90vw !important;
+  height: 100% !important;
+  overflow-y: auto !important;
+  box-sizing: border-box !important;
+  background: #211914 !important;
+  z-index: 9999 !important;
+}
+
+html body #outer.filtering #main form#bookmark-filters {
+  width: 75vw !important;
+  max-width: 75vw !important;
+}
+
+html body #outer.filtering #main form#bookmark-filters {
+  width: 65vw !important;
+  max-width: 65vw !important;
+}
+
+html body #outer.filtering {
+  left: 0 !important;
+  right: auto !important;
+}
+
+html body #outer.filtering #main form#bookmark-filters {
+  top: 150px !important;
+  bottom: 0 !important;
+  height: auto !important;
+}
+
+html body #outer #inner #main .user.home:not(.profile) .primary.header > ul.navigation.actions > li:not(:first-child) {
+  top: -20px !important;
+}
+
+html body #outer.filtering {
+  left: 0 !important;
+  right: auto !important;
+}
+
+html body #outer.filtering #main.works-index form.filters {
+  position: fixed !important;
+  top: 150px !important;
+  bottom: 0 !important;
+  left: auto !important;
+  right: 0 !important;
+  height: auto !important;
+  overflow-y: auto !important;
+  z-index: 9999 !important;
+}
+
+html body #outer.filtering {
+  left: 0 !important;
+  right: auto !important;
+}
+
+html body #outer.filtering #main form.filters {
+  position: fixed !important;
+  top: 150px !important;
+  bottom: 0 !important;
+  left: auto !important;
+  right: 0 !important;
+  height: auto !important;
+  overflow-y: auto !important;
+  z-index: 9999 !important;
+}
+
+html body #outer #inner #main form.filters dd.submit.actions::before {
+  margin-left: -10px !important;
+}
+
+html body #outer #inner #main form.filters dd.submit.actions::after {
+  margin-right: -10px !important;
+}
+
+html body #outer #inner #main .preface .summary,
+html body #outer #inner #main .preface .notes {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main .preface .summary blockquote.userstuff,
+html body #outer #inner #main .preface .notes blockquote.userstuff {
+  width: 94% !important;
+  max-width: 94% !important;
+  margin-left: 3% !important;
+  margin-right: 3% !important;
+  padding-left: 12px !important;
+  padding-right: 5px !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main .preface.group {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main .preface.group {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+html body #outer #inner #main #chapters .chapter .preface h3.title {
+  line-height: 1.35 !important;
+}
+
+html body #outer #inner #main #chapters div.userstuff[role="article"] > p:first-of-type {
+  text-indent: 35px !important;
+}
+
+html body #outer #inner #main #bookmark-form {
+  width: 98.4vw !important;
+  max-width: none !important;
+  position: relative !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main #bookmark-form form {
+  width: 100% !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main #bookmark-form textarea {
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main #bookmark-form form > fieldset {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main #kudos p {
+  text-align: left !important;
+  word-spacing: normal !important;
+}
+
+html body #outer #inner #main #kudos_message {
+  background: #49282b !important;
+  border: 1px solid #c6a063 !important;
+  color: #e8d6b8 !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 6px 10px !important;
+}
+
+html body #outer #inner #main #kudos_message:empty {
+  display: none !important;
+}
+
+html body #modal-bg {
+  z-index: 10000 !important;
+}
+
+html body #modal {
+  position: fixed !important;
+  z-index: 10001 !important;
+  top: 160px !important;
+  bottom: 10px !important;
+  left: 3% !important;
+  right: auto !important;
+  width: 94% !important;
+  max-width: 94% !important;
+  height: auto !important;
+  max-height: none !important;
+  margin: 0 !important;
+  transform: none !important;
+  overflow-y: auto !important;
+  box-sizing: border-box !important;
+}
+
+html body #modal-wrap {
+  z-index: 10001 !important;
+}
+
+html body #modal {
+  width: 85% !important;
+  max-width: 85% !important;
+  left: 7.5% !important;
+}
+
+html body #modal {
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+}
+
+html body #modal > .content.userstuff {
+  flex: 1 !important;
+  min-height: 0 !important;
+  overflow-y: auto !important;
+}
+
+html body #modal > .footer {
+  position: relative !important;
+  top: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  right: auto !important;
+  flex-shrink: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+html body #modal {
+  display: block !important;
+  overflow-y: auto !important;
+}
+
+html body #modal > .content.userstuff {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+html body #modal > .footer {
+  position: static !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 8px 10px !important;
+  margin: 0 !important;
+}
+
+html body #modal > .footer {
+  position: relative !important;
+  top: auto !important;
+  bottom: auto !important;
+  height: 45px !important;
+  min-height: 0 !important;
+  max-height: 45px !important;
+  padding: 5px 10px !important;
+  box-sizing: border-box !important;
+}
+
+html body #modal {
+  padding-bottom: 0 !important;
+}
+
+html body #modal > .footer {
+  margin-bottom: 0 !important;
+}
+
+html body #modal > .footer a.action.modal-closer {
+  font-size: 13px !important;
+  padding: 3px 8px !important;
+  line-height: 1.3 !important;
+}
+
+html body #modal > .footer span.title {
+  position: relative !important;
+  top: -3px !important;
+}
+
+html body #modal > .content.userstuff {
+  position: relative !important;
+  display: block !important;
+  float: none !important;
+  height: auto !important;
+}
+
+html body #modal > .footer {
+  position: relative !important;
+  display: block !important;
+  float: none !important;
+  clear: both !important;
+  top: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+}
+
+html body #outer #inner #main.works-new fieldset.preface dt.coauthors {
+  float: right !important;
+  width: 90% !important;
+  clear: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main.works-new fieldset.preface dd.coauthors {
+  float: none !important;
+  clear: none !important;
+  margin: 0 0 15px 0 !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main.works-new dt.parent,
+html body #outer #inner #main.works-new dt.translation,
+html body #outer #inner #main.works-new dt.serial,
+html body #outer #inner #main.works-new dt.chaptered,
+html body #outer #inner #main.works-new dt.backdate {
+  float: left !important;
+  clear: left !important;
+  width: 20px !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main.works-new dd.parent,
+html body #outer #inner #main.works-new dd.translation,
+html body #outer #inner #main.works-new dd.serial,
+html body #outer #inner #main.works-new dd.chaptered,
+html body #outer #inner #main.works-new dd.backdate {
+  float: none !important;
+  clear: none !important;
+  width: auto !important;
+  margin-left: 26px !important;
+  padding-left: 0 !important;
+}
+
+html body #outer #inner #main.works-new fieldset.privacy > dl {
+  display: grid !important;
+  grid-template-columns: 26px 1fr !important;
+  align-items: start !important;
+}
+
+html body #outer #inner #main.works-new fieldset.privacy > dl > dt,
+html body #outer #inner #main.works-new fieldset.privacy > dl > dd {
+  position: static !important;
+  float: none !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 0 15px 0 !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main.works-new fieldset.privacy dt.permissions,
+html body #outer #inner #main.works-new fieldset.privacy dd.permissions {
+  grid-column-start: 1 !important;
+  grid-column-end: 3 !important;
+}
+
+html body #outer #inner #main.works-new fieldset.privacy dd.permissions {
+  margin-top: -25px !important;
+}
+
+html body #outer #inner #main.works-new fieldset.privacy dd.permissions {
+  margin-top: -30px !important;
+}
+
+html body #outer.filtering #main a#leave_filters {
+  display: block !important;
+  position: fixed !important;
+  top: 158px !important;
+  right: 56vw !important;
+  left: auto !important;
+  width: 25px !important;
+  height: 25px !important;
+  box-sizing: border-box !important;
+  background: #462728 !important;
+  border: 1px solid #bc985e !important;
+  border-radius: 8px !important;
+  font-size: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  z-index: 10000 !important;
+}
+
+html body #outer.filtering #main a#leave_filters::after {
+  content: "×" !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  height: 100% !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 19px !important;
+  color: #efdfc1 !important;
+  line-height: 1 !important;
+}
+
+html body #outer.filtering #main a#leave_filters {
+  top: 155px !important;
+}
+
+html body #outer.filtering #main form.filters dd.submit.actions:first-of-type {
+  margin-top: 25px !important;
+}
+
+html body #outer.filtering #main form.filters dd.submit.actions:first-of-type {
+  margin-top: 20px !important;
+}
+
+html body #outer.filtering #main form.filters dd.submit.actions:first-of-type {
+  margin-top: 17px !important;
+}
+
+html body #outer #dashboard:hover,
+html body #outer #dashboard:focus-within {
+  background-color: #211914 !important;
+  z-index: 100 !important;
+}
+
+html body #outer.filtering #main form.filters {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+html body #footer .module.group:nth-of-type(3) h4 {
+  position: relative !important;
+  left: -3px !important;
+}
+
+html body #footer .module.group:nth-of-type(4) h4 {
+  white-space: nowrap !important;
+  font-size: 10.5px !important;
+}
+
+#header #search {
+  margin-left: 5px !important;
+}
+
+html body #outer #header #search {
+  margin-left: 5px !important;
+}
+
+html body #outer #inner #main.series-show > h2.heading {
+  margin-top: 20px !important;
+}
+
+html body #outer #inner #main.series-show > ul.navigation.actions {
+  margin-bottom: 15px !important;
+}
+
+html body #outer #inner #main.series-show > ul.navigation.actions .current {
+  background: #462728 !important;
+  color: #efdfc1 !important;
+  border: 1px solid #bc985e !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+html body #outer #inner #main.series-show > .wrapper > dl.meta {
+  border: 1px solid #bc985e !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+html body #outer #inner #main.series-show ul.series.work.index ul.tags {
+  margin-top: 5px !important;
+}
+
+html body #outer #inner #main.series-show.region > h2.heading {
+  position: relative !important;
+  top: 10px !important;
+  margin-bottom: 20px !important;
+}
+
+html body #outer #inner #main.series-show.region > ul.navigation.actions {
+  margin-bottom: 20px !important;
+}
+
+html body #outer #inner #main.series-show.region > ul.navigation.actions > li > span.current {
+  background: #462728 !important;
+  color: #efdfc1 !important;
+  border: 1px solid #bc985e !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+html body #outer #inner #main.series-show.region > div.wrapper > dl.series.meta.group {
+  border: 1px solid #bc985e !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+html body #outer #inner #main.series-show.region ul.series.work.index li.work.blurb ul.tags {
+  margin-top: -15px !important;
+}
+
+html body #outer #inner #main.series-show.region > ul.navigation.actions {
+  position: relative !important;
+  top: 12px !important;
+  float: none !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+html body #outer #inner #main.series-show.region > div.wrapper,
+html body #outer #inner #main.series-show.region > div.wrapper > dl.series.meta.group {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+html body #outer #inner #main.series-show.region ul.series.work.index li.work.blurb ul.tags {
+  margin-top: 5px !important;
+}
+
+html body #outer #inner #main .collection.home .primary.header {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 100% !important;
+  height: auto !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main .collection.home .primary.header > .icon {
+  order: 1 !important;
+  position: static !important;
+  float: none !important;
+  margin: 10px auto !important;
+}
+
+html body #outer #inner #main .collection.home .primary.header h2.heading {
+  order: 2 !important;
+  position: static !important;
+  width: 100% !important;
+  margin: 10px auto !important;
+  text-align: center !important;
+  font-size: 24px !important;
+}
+
+html body #outer #inner #main .collection.home .primary.header > ul.navigation.actions {
+  order: 3 !important;
+  position: static !important;
+  width: 100% !important;
+  margin: 10px auto !important;
+  text-align: center !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main .collection.home .primary.header p.type {
+  order: 4 !important;
+  position: static !important;
+  width: 100% !important;
+  margin: 5px auto !important;
+  text-align: center !important;
+  font-size: 12px !important;
+}
+
+html body #outer #inner #main .collection.home .primary.header > .icon,
+html body #outer #inner #main .collection.home .primary.header > .icon img {
+  width: 75px !important;
+  height: 75px !important;
+}
+
+html body #outer #inner #main .collection.home .primary.header h2.heading {
+  font-size: 20px !important;
+  margin: 5px auto !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main .collection.home .primary.header > ul.navigation.actions {
+  margin: 5px auto !important;
+}
+
+html body #outer #inner #main .collection.home .primary.header > ul.navigation.actions a {
+  font-size: 11px !important;
+  padding: 4px 8px !important;
+  min-height: 0 !important;
+  height: auto !important;
+}
+
+html body #outer #inner #main .collection.home .primary.header p.type {
+  font-size: 11px !important;
+  margin: 5px auto !important;
+}
+
+html body #outer #inner #main .collection.home .primary.header h2.heading {
+  margin-top: -10px !important;
+}
+
+html body #outer #inner #main .collection.home .primary.header h2.heading {
+  margin-top: -15px !important;
+}
+
+html body #outer #inner #main .collection.home .primary.header p.type {
+  margin-bottom: 20px !important;
+}
+
+html body #outer #inner #main.collection_profile-show .primary.header .current {
+  background: #462728 !important;
+  color: #efdfc1 !important;
+  border: 1px solid #bc985e !important;
+  border-radius: 8px !important;
+  font-size: 11px !important;
+  padding: 4px 8px !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+html body #outer #inner #main.collection_profile-show .primary.header h2.heading a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+html body #outer #inner #main.collection_profile-show .collection.home > h3.heading {
+  font-size: 16px !important;
+}
+
+html body #outer #inner #main.collection_profile-show .wrapper dl.meta {
+  background: #211914 !important;
+  border: 1px solid #bc985e !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+html body #outer #inner #main.collection_profile-show .wrapper dl.meta a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+html body #outer #inner #main.collection_profile-show .collection.home > h3.heading {
+  margin-bottom: 12px !important;
+}
+
+html body #outer #inner #main.collection_profile-show .collection.home > .wrapper {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+html body #outer #inner #main.collection_profile-show .collection.home > .wrapper > dl.meta {
+  border: 1px solid #bc985e !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+html body #outer #inner #main.collection_profile-show .collection.home > .wrapper {
+  padding-top: 15px !important;
+}
+
+html body #outer #inner #main.collection_profile-show .collection.home .primary.header > .icon {
+  transform: translateY(-20px) !important;
+}
+
+html body #outer #inner:has(#dashboard a[href^="/collections/"]) #main.bookmarks-index .recent p.status span.public::before {
+  content: none !important;
+  display: none !important;
+}
+
+html body #outer #inner:has(#dashboard a[href^="/collections/"]) #main.bookmarks-index .recent p.status span.public {
+  top: -7px !important;
+}
+
+html body #outer #inner #main .collection.home .primary.header > blockquote.userstuff {
+  order: 5 !important;
+  position: static !important;
+  float: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 15px auto !important;
+  padding: 0 10px !important;
+  box-sizing: border-box !important;
+  text-align: left !important;
+}
+
+html body #outer #inner #main.collection_profile-show > .flash {
+  position: relative !important;
+  top: -15px !important;
+}
+
+html body #outer #inner:has(#dashboard a[href^="/collections/"]) #main.works-index > ol.pagination:first-of-type {
+  position: relative !important;
+  top: -15px !important;
+}
+
+html body #outer #inner #main.pseuds-show .user.home .primary.header > ul.navigation.actions {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+}
+
+html body #outer #inner #main.pseuds-show .user.home .primary.header > ul.navigation.actions > li {
+  position: static !important;
+  float: none !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+  margin: 0 4px !important;
+}
+
+html body #outer #inner #main.pseuds-show .user.home:not(.profile) .primary.header > ul.navigation.actions > li:not(:first-child) {
+  position: relative !important;
+  top: -110px !important;
+}
+
+html body #outer #inner #main.chapters-manage #sortable_chapter_list {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 15px auto !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main.chapters-manage li.chapter-position-list {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  height: auto !important;
+  margin: 0 auto 15px !important;
+}
+
+html body #outer #inner #main.chapters-manage ul.chapter-control.actions {
+  position: static !important;
+  float: none !important;
+  display: block !important;
+  width: 100% !important;
+  text-align: right !important;
+  margin: 10px 0 0 !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main.chapters-manage p.submit.actions {
+  text-align: center !important;
+}
+
+html body #outer #inner #main.chapters-manage > h2.heading {
+  font-size: 24px !important;
+}
+
+html body #outer #inner #main.chapters-manage input.chapter-position-field {
+  display: inline-block !important;
+  width: 30px !important;
+  height: 24px !important;
+  padding: 2px !important;
+  margin-right: 8px !important;
+  box-sizing: border-box !important;
+  text-align: center !important;
+  font-size: 12px !important;
+  background: #462728 !important;
+  color: #efdfc1 !important;
+  border: 1px solid #bc985e !important;
+  border-radius: 5px !important;
+  box-shadow: none !important;
+}
+
+html body #outer #inner #main #chapter_index a,
+html body #outer #inner #main #chapter_index input[type="submit"] {
+  font-size: 11px !important;
+  padding: 4px 9px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  width: auto !important;
+  line-height: 1.3 !important;
+  white-space: nowrap !important;
+  border-radius: 8px !important;
+}
+
+html body #outer #inner #main span.frozen.current {
+  position: relative !important;
+  left: 0 !important;
+  font-size: 11px !important;
+  padding: 4px 6px !important;
+  width: auto !important;
+  min-width: 0 !important;
+  height: auto !important;
+  line-height: 1.3 !important;
+}
+
+html body #outer #inner #main.works-navigate > h2.heading {
+  display: block !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+html body #outer #inner #main.works-navigate > ol.chapter.index.group > li {
+  margin-bottom: 15px !important;
+}
+
+html body #outer #inner #main.chapters-preview h4.heading.byline::after {
+  width: 100% !important;
+  background-size: 220% auto !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+html body #outer #inner #main.chapters-preview div.chapter.draft > div.userstuff.module[role="article"]::after {
+  width: 100% !important;
+  background-size: 220% auto !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+html body #outer #inner #main.chapters-preview #previewpane #chapters {
+  margin-top: 0 !important;
+}
+
+html body #outer #inner #main:not(.pseuds-show) .user.home:not(.profile) .primary.header > ul.navigation.actions > li:not(:first-child) {
+  top: -110px !important;
+}
+
+html body #outer #inner #main.series-edit dt.byline.coauthors,
+html body #outer #inner #main.series-edit dd:has(label[for="series_complete"]) {
+  float: left !important;
+  clear: both !important;
+  width: 75% !important;
+  margin: 0 !important;
+}
+
+html body #outer #inner #main.series-edit dd.byline.coauthors,
+html body #outer #inner #main.series-edit dt:has(#series_complete) {
+  float: right !important;
+  clear: none !important;
+  width: 20% !important;
+  margin: 0 !important;
+}
+
+html body #outer #inner #main.series-edit input#series_complete,
+html body #outer #inner #main.series-edit input#co-authors-options-show,
+html body #outer #inner #main.series-edit label[for="series_complete"] {
+  position: relative !important;
+  left: 0 !important;
+  top: 0 !important;
+}
+
+html body #outer #inner #main.series-edit input#co-authors-options-show {
+  left: -85px !important;
+}
+
+html body #outer #inner #main.series-edit dt.summary {
+  padding-top: 20px !important;
+}
+
+html body #outer #inner #main.series-edit input#series_complete {
+  left: -50px !important;
+}
+
+html body #outer #inner #main.series-edit label[for="series_complete"] {
+  top: -18px !important;
+}
+
+html body #outer #inner #main.series-edit fieldset > legend {
+  display: none !important;
+}
+
+html body #outer #inner #main.series-edit dd.byline.coauthors:has(#co-authors-options-show:checked) {
+  width: 100% !important;
+  float: none !important;
+  clear: both !important;
+}
+
+html body #outer #inner #main.series-edit #co-authors-options {
+  position: relative !important;
+  width: 100% !important;
+  margin: 15px 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  border: none !important;
+}
+
+html body #outer #inner #main.series-edit #co-authors-options ul.autocomplete,
+html body #outer #inner #main.series-edit #pseud_byline_autocomplete {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main.series-edit #co-authors-options-show:checked {
+  left: 49% !important;
+}
+
+html body #outer #inner #main.series-manage form {
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main.series-manage input.serial-position-field {
+  display: inline-block !important;
+  width: 35px !important;
+  height: 24px !important;
+  background: #30241d !important;
+  color: #efdfc1 !important;
+  border: 1px solid #bc985e !important;
+  border-radius: 5px !important;
+  box-shadow: none !important;
+  text-align: center !important;
+  margin-right: 8px !important;
+  box-sizing: border-box !important;
+}
+
+html body #outer #inner #main.series-manage p.submit {
+  text-align: right !important;
+  margin-right: 0 !important;
+}
+
+html body #outer #inner #main.collections-new dt:has(input[type="checkbox"]) {
+  float: left !important;
+  clear: both !important;
+  width: 25px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main.collections-new dt:has(input[type="checkbox"]) + dd {
+  float: none !important;
+  clear: none !important;
+  width: auto !important;
+  margin: 0 0 20px 30px !important;
+  padding: 0 !important;
+}
+
+html body #outer #inner #main.collections-new input[type="checkbox"] {
+  margin: 2px 0 0 !important;
+  vertical-align: middle !important;
+}
+
+html body #outer #inner #main > ul.collection.picture.index.group {
+  order: 4 !important;
+}
+
+html body #outer #inner #main.collections-show .collection.home .primary.header {
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  padding-left: 0 !important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+html body #outer #inner #main.collections-show .collection.home .primary.header > .icon {
+  order: 1 !important;
+  position: static !important;
+  margin: 10px auto !important;
+}
+
+html body #outer #inner #main.collections-show .collection.home .primary.header > h2.heading {
+  order: 2 !important;
+  width: 100% !important;
+  margin: 5px auto !important;
+  text-align: center !important;
+}
+
+html body #outer #inner #main.collections-show .collection.home .primary.header > ul.navigation.actions {
+  order: 3 !important;
+  position: static !important;
+  width: 100% !important;
+  max-width: 280px !important;
+  margin: 10px auto !important;
+  text-align: center !important;
+}
+
+html body #outer #inner #main.collections-show .collection.home .primary.header > p.type {
+  order: 4 !important;
+  position: static !important;
+  width: 100% !important;
+  margin: 5px auto 15px !important;
+  text-align: center !important;
+  font-size: 11px !important;
+}
+
+html body #outer #inner #main.collections-show .collection.home .primary.header > blockquote {
+  order: 5 !important;
+  width: 100% !important;
+  margin: 5px auto 15px !important;
+  text-align: left !important;
+}
+
+html body #outer #inner #main.collections-show li.bookmark.blurb ul.actions a,
+html body #outer #inner #main.collections-show li.bookmark.blurb ul.actions input[type="submit"],
+html body #outer #inner #main.collections-show li.bookmark.blurb ul.actions button {
+  font-size: 11px !important;
+  padding: 3px 7px !important;
+  min-height: 0 !important;
+  height: auto !important;
+  line-height: 1.3 !important;
+}
+
+html body #outer #inner #main.collections-show li.bookmark.blurb ul.actions {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+html body #outer #inner #main.collection_items-index > h2.heading {
+  text-align: center !important;
+  font-size: 22px !important;
+  margin: 10px auto 15px !important;
+}
+
+html body #outer #inner #main.collection_items-index > ul.navigation.actions a,
+html body #outer #inner #main.collection_items-index > ul.navigation.actions .current {
+  font-size: 11px !important;
+  padding: 4px 8px !important;
+  min-height: 0 !important;
+  height: auto !important;
+}
+
+html body #outer #inner #main.collection_items-index > ul.navigation.actions {
+  max-width: 320px !important;
+  margin: 10px auto 15px !important;
+  text-align: center !important;
+}
+
+html body #outer #inner #main.collection_items-index > p.note {
+  margin-top: 15px !important;
+}
+
+html body #outer #inner #main.collection_items-index li.collection.item > ul.actions {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+html body #outer #inner #main.collection_items-index li.collection.item > ul.actions > li {
+  float: none !important;
+  width: auto !important;
+  margin: 4px auto !important;
+  text-align: center !important;
+}
+
+html body #outer #inner #main.collection_items-index li.collection.item > ul.actions {
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-sizing: border-box !important;
+  align-items: center !important;
+}
+
+html body #outer #inner #main.collection_profile-show .collection.home .primary.header {
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  padding-left: 0 !important;
+  width: 100% !important;
+  height: auto !important;
+  margin-top: 10px !important;
+}
+
+html body #outer #inner #main.collection_profile-show .collection.home .primary.header > .icon {
+  order: 1 !important;
+  position: static !important;
+  margin: 10px auto !important;
+}
+
+html body #outer #inner #main.collection_profile-show .collection.home .primary.header > h2.heading {
+  order: 2 !important;
+  width: 100% !important;
+  margin: 5px auto !important;
+  text-align: center !important;
+}
+
+html body #outer #inner #main.collection_profile-show .collection.home .primary.header > ul.navigation.actions {
+  order: 3 !important;
+  position: static !important;
+  width: 100% !important;
+  max-width: 280px !important;
+  margin: 10px auto !important;
+  text-align: center !important;
+}
+
+html body #outer #inner #main.collection_profile-show .collection.home .primary.header > p.type {
+  order: 4 !important;
+  position: static !important;
+  width: 100% !important;
+  margin: 5px auto 15px !important;
+  text-align: center !important;
+  font-size: 11px !important;
+}
+
+html body #outer #inner #main.collection_profile-show .collection.home .primary.header > blockquote {
+  order: 5 !important;
+  width: 100% !important;
+  margin: 5px auto 15px !important;
+  text-align: left !important;
+}
+
+html body #outer #inner #main.collection_profile-show .module:has(> h3.heading):not(.primary) {
+  left: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+html body #outer #inner #main.collection_profile-show dl.meta {
+  display: grid !important;
+  grid-template-columns: 45% 55% !important;
+  align-items: start !important;
+}
+
+html body #outer #inner #main.collection_profile-show dl.meta > dt,
+html body #outer #inner #main.collection_profile-show dl.meta > dd {
+  float: none !important;
+  clear: none !important;
+  width: auto !important;
+  margin: 0 0 10px !important;
+  padding: 0 !important;
+  text-align: left !important;
+}
+
+html body #outer #inner #main .user.home .series.listbox {
+  margin-top: -10px !important;
+}
+
+html body #outer #inner #main #chapters div.userstuff[role="article"] {
+  font-size: 16.388px !important;
+}
+
+html body #outer #inner #main .preface .summary blockquote.userstuff,
+html body #outer #inner #main .preface .notes blockquote.userstuff {
+  font-size: 16.388px !important;
+}
+
+html body #outer #inner #main #chapters .summary .userstuff,
+html body #outer #inner #main #chapters .summary .userstuff p {
+  font-size: 16.388px !important;
+}
+
+html body #outer #inner #main #chapters .summary h3.heading {
+  padding-left: 5px !important;
+}
