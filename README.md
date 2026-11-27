@@ -67,3 +67,13 @@ Once all three skins have been created and linked, open your **Combined** skin a
 # IMAGES
 
 ![The Midnight Library Preview](screenshots/PreviewAO3Skin.png)
+
+# TERMS OF USE
+
+- You are free to use this site skin on your AO3 account.
+- You may modify the CSS for personal use.
+- Please do not redistribute, reupload, or republish this skin, whether modified or unmodified, without my permission.
+- Please do not claim this skin as your own or use it for commercial purposes.
+- If you wish to share this skin with others, please link directly to this GitHub repository.
+
+Thank you for respecting my work and enjoy The Midnight Library! <3
